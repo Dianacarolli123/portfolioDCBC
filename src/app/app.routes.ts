@@ -9,11 +9,11 @@ import { CertificationsComponent } from './components/certifications/certificati
 
 export const routes: Routes = [
 
-    {title: "ADS | Home", path:'' , component: HeaderComponent},
-    {title: "ADS | Home", path:'home' , component: HeaderComponent},
-    {title: "ADS | About", path:'about' , component: AboutComponent},
-    {title: "ADS | Projects", path:'projects' , component: ProjectsComponent},
-    {title: "ADS | Certifications", path:'certifications' , component: CertificationsComponent},
-    {title: "ADS | Not Found", path:'**' , component: NotfoundComponent},
+    {title: "DB | Home", path:'' , component: HeaderComponent},
+    {title: "DB | Home", path:'home' , component: HeaderComponent},
+    {title: "DB | About", path:'about' , component: AboutComponent},
+    {title: "DB | Projects", path:'projects' , component: ProjectsComponent},
+    {title: "DB | Certifications", path:'certifications' , component: CertificationsComponent},
+    {title: "DB | Not Found", path:'**' , component: NotfoundComponent},
     
 ];  
