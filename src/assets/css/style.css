@@ -159,7 +159,9 @@ section {
     clear: both;
     overflow: hidden;
 }
-
+.margin-top{
+    margin-top: 5%;
+}
 /* Rows and Columns */
 
 .row {
@@ -938,6 +940,12 @@ h6 {
 .logoWIProjects {
     float: left;
     width: 30%;
+    line-height: 66px;
+    margin-right: 10px;
+}
+.logoEPPPProjects {
+    float: left;
+    width: 50%;
     line-height: 66px;
     margin-right: 10px;
 }
